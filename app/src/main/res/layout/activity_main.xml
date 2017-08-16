@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context="com.example.aaron.w3d2_broadcastreceiver.MainActivity">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/btnBroadcastMsg"
+        android:text="Start Broadcast"
+        android:onClick="broadcastController"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@layout/oval_button"
+        />
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+
+        android:textColor="@color/colorLimeGreen"
+        android:id="@+id/tvMonitorStreen"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Hello World1"
+        android:textColor="@color/colorLimeGreen"
+        android:id="@+id/tvMonitorStreen1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Hello World2"
+        android:textColor="@color/colorLimeGreen"
+        android:id="@+id/tvMonitorStreen2"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/colorLimeGreen"
+        android:id="@+id/tvMonitorStreen3"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Hello World4"
+        android:textColor="@color/colorLimeGreen"
+        android:id="@+id/tvMonitorStreen4"
+        />
+
+</LinearLayout>
